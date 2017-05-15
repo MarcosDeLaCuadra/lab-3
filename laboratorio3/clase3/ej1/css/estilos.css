@@ -1,0 +1,9 @@
+h1,h2{
+
+    color:brown ;
+}
+ body{
+
+          background-image: url("../images/Desert.jpg"); /*con el ../ subo un nivel*/
+          
+      }

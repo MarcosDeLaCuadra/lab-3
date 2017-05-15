@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="#" method="GET"><!--action va la direccion de php-->
+
+        Nombre:
+        <input type="text" name="nombre" size="20" value="Ingrese">
+
+    <br>
+    Clave: 
+    <input type="password" name="password">
+    <br>
+
+    Comentarios:
+    <br>
+    <textarea name="Comentario" id="" cols="20" rows="5">Ingrese aqui su comentario</textarea>
+
+    <br>
+    
+    Localidad:    
+    <select name="localidad" id="" > <!-- [] recive un array y se puede elejir mas de una opcion-->
+                                                            <!-- size es para elejir cuantas mostrar-->
+        <optgroup label="Sur">
+            
+        <option value="1">avellaneda</option>
+        <option value="2">quilmes</option>
+        <option value="3" >bernal</option>
+        <option value="4">wilde</option>
+        <option value="5">lanus</option>
+        
+        </optgroup>    
+
+          <optgroup label="Norte">
+            
+        <option value="1">san isidro</option>
+        <option value="2">olivos</option>
+        <option value="3" >martinez</option>
+        <option value="4">wilde</option>
+        <option value="5">lanus</option>
+        
+        </optgroup>                                                  
+        
+    </select>
+
+    <br>
+
+    <fieldset>
+        <legend>Otros datos</legend>
+    
+   Nombre:
+  <input type="text" name="nombre" size="20" value="Ingrese">
+
+    <br>
+    Clave: 
+    <input type="password" name="password">
+    <br>
+
+    Comentarios:
+    <br>
+    <textarea name="Comentario" id="" cols="20" rows="5">Ingrese aqui su comentario</textarea>
+
+    <br>
+    </fieldset>
+
+    <input type="checkbox" name="bici" checked>Sabe andar en bicicleta
+    <br>
+
+    <input type="radio" name="genero" value="Masculino" checked>Masculino <br> <!-- para que el radio solo se pueda seleccionar uno se tiene q poner el mismo "name"-->
+    <input type="radio" name="genero" value="Femenino">Femenino <br>
+
+    <input type="submit" name="enviar" value="enviar datos">
+  
+    <input type="reset" value="Limpiar">
+    <br>
+
+    
+
+
+    </form>
+
+</body>
+</html>
